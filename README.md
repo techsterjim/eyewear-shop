@@ -1,6 +1,6 @@
 # Varovis
 
-Customized and enhanced a comprehensive e-commerce website for Varovis, a stylish eyewear store, utilizing Vite and React with JavaScript and Sass for optimal performance and aesthetics.
+Customized and enhanced a comprehensive e-commerce website called Varovis, a stylish eyewear store, utilizing Vite and React with JavaScript and Sass for optimal performance and aesthetics.
 
 ## Feautures
 
