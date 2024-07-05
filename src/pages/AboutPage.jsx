@@ -21,23 +21,24 @@ import eyecareImgComp from '../assets/img/unsplash-compressed/store-7.jpg';
 
 function AboutPage() {
   useEffect(() => {
-    document.title = 'The SAVANT Experience | SAVANT Eyewear Online Store';
+    document.title = 'The VAROVIS Experience | VAROVIS Eyewear Online Store';
   }, []);
 
   return (
     <main className="story">
       <section className="story-header">
-        <h1 className="story-header__title">An Eye for Better Eyewear</h1>
+        <h1 className="story-header__title">Vision for Superior Eyewear</h1>
         <p className="story-header__text">
-          Our designs are carefully crafted to capture the latest fashion trends
-          while ensuring maximum comfort and functionality. With a range of
-          unique styles and color options, we are confident that our collection
-          has something to suit every taste and personality.
+          With a range of unique styles and color options, we are confident 
+          that our collection has something With a focus on both comfort 
+          and functionality, our products are exquisitely designed to meet 
+          the latest fashion trends. Providing a variety of styles and colors, 
+          we are confident that our collection will meet every taste and style.
         </p>
         <p className="story-header__text">
-          Our frames are crafted with attention to detail, utilizing the latest
-          materials and technology to ensure the highest quality products.
-          Elevate your eyewear game with SAVANT frames.
+          Each frame is crafted with precision, utilizing high-quality materials 
+          and cutting-edge technology. With VAROVIS frames, you&apos;ll be able to 
+          put your best foot forward.
         </p>
       </section>
 
@@ -57,20 +58,18 @@ function AboutPage() {
         <div className="story-main__panel panel-2 about-us">
           <h2 className="story-main__title">About us</h2>
           <p className="story-main__text">
-            SAVANT was born of a simple mission - to create high-quality,
-            stylish glasses that would empower people to express themselves with
-            confidence.
+            It all began with a simple goal: to craft top-notch, stylish 
+            glasses that help people express themselves confidently.
           </p>
           <p className="story-main__text">
-            Founded by a group of passionate designers and eyewear enthusiasts,
-            we started our journey with a commitment to crafting frames that
-            would stand the test of time, both in terms of durability and style.
+            With a team of passionate designers and eyewear enthusiasts, 
+            we strive to create frames that are both durable and stylish.
           </p>
           <p className="story-main__text">
-            Today, we continue to build on that legacy by designing unique and
-            trendsetting glasses that reflect the spirit and creativity of our
-            brand. Join us as we continue to redefine eyewear fashion and bring
-            our vision to life.
+            With a focus on comfort and functionality, we exquisitely 
+            design our products to meet the latest fashion trends. 
+            Providing a variety of styles and colors, we are confident 
+            that our collection will meet every taste and style.
           </p>
           <Link to="/products/" className="story-main__btn-link">
             Browse Products
@@ -79,20 +78,19 @@ function AboutPage() {
         <div className="story-main__panel panel-3 eyeglasses">
           <h2 className="story-main__title">Eyewear For Everyone</h2>
           <p className="story-main__text">
-            At SAVANT, we believe that everyone should have access to stylish
-            and affordable glasses. That&apos;s why we strive to create frames
-            that are not only trendy and fashionable, but also accessible for
-            everyone.
+            At VAROVIS, we think everyone should have stylish, 
+            affordable eyewear. That&apos;s why we create trendy frames 
+            that everyone can enjoy.
           </p>
           <p className="story-main__text">
-            From classic to contemporary, our frames are designed to suit every
-            taste and style, making it easy for our customers to find the
-            perfect pair of glasses.
+            From classic to modern styles, our frames are made to 
+            fit all tastes and preferences, so our customers can 
+            easily find the right pair of glasses.
           </p>
           <p className="story-main__text">
-            Our commitment to accessibility is at the heart of everything we do,
-            and we take pride in helping people around the world to see better
-            and look their best.
+            Accessibility is our top priority, and we&apos;re proud to 
+            help folks worldwide see better and look their best—
+            it&apos;s what drives everything we do!
           </p>
           <Link to="/products/eyeglasses" className="story-main__btn-link">
             Browse Frames
@@ -125,10 +123,10 @@ function AboutPage() {
         <div className="story-main__panel panel-6 sunglasses">
           <h2 className="story-main__title">Responsible Shade</h2>
           <p className="story-main__text">
-            We are committed to making a positive impact on the world around us.
-            We believe that as a business, we have a responsibility to give back
-            to the communities we serve and to protect the planet we all call
-            home.
+            We are dedicated to creating a positive impact on our 
+            world. As a responsible business, we believe in giving 
+            back to the communities we serve and in safeguarding 
+            the planet we all share.
           </p>
           <p className="story-main__text">
             From using sustainable materials and manufacturing practices to
@@ -141,7 +139,7 @@ function AboutPage() {
             commitment to making a positive impact on the world.
           </p>
           <Link to="/products/sunglasses" className="story-main__btn-link">
-            Browse Sunnies
+            Browse Shades
           </Link>
         </div>
       </section>
@@ -149,18 +147,18 @@ function AboutPage() {
       <section className="story-eyecare">
         <div className="story-eyecare__info">
           <h3 className="story-eyecare__title">
-            Our commitment to proper eyecare
+            Our dedication to providing top-notch eye care
           </h3>
           <p className="story-eyecare__text">
-            We believe that everyone deserves access to high-quality eyecare,
-            and that is why we have partnered with various organizations to
-            promote awareness and support initiatives that make vision care
-            accessible to those in need.
+            Because we believe everyone deserves top-notch eye care, 
+            we&apos;ve partnered with several organizations to promote 
+            awareness and fund programs that provide vision care to 
+            those in need.
           </p>
           <p className="story-eyecare__text">
-            With every purchase, we also provide educational resources and
-            support to help our customers take care of their eyes and maintain
-            good eye health for years to come.
+            With each purchase, we offer instructional materials 
+            and support aimed at helping our customers maintain 
+            excellent eye health for years to come.
           </p>
 
           <Link to="/eyecare" className="story-eyecare__link">
@@ -183,7 +181,7 @@ function AboutPage() {
 
       <BlogContent
         content={blogData}
-        headerTitle="A community built on neighborhood values"
+        headerTitle="An online eyeglasses community rooted in the values of a close-knit neighborhood"
       />
 
       <section className="story-visit">Visit us</section>

@@ -11,7 +11,7 @@ function Footer() {
     <footer className="footer">
       <section className="nletter">
         <div className="nletter--wrapper">
-          <h3 className="nletter__title">Be a part of the Savants</h3>
+          <h3 className="nletter__title">Sign up now for exclusive news and savings</h3>
           <span className="nletter__promo">
             Enjoy 10% off your first purchase when you sign up!
           </span>
@@ -125,11 +125,10 @@ function Footer() {
           </section>
           <section className="footer-sv__contact">
             <h4 className="footer-sv__contact-title">
-              Ask a Savant Specialist
+              Hello, how can we help?
             </h4>
             <p className="footer-sv__contact-text">
-              Whether you&apos;re a collector or visiting for the first time,
-              we&apos;re here to assist!
+              Get assistance with your orders, account, and more.
             </p>
             <ul className="footer-sv__contact-info">
               <li className="footer-sv__contact-tel">
@@ -138,7 +137,7 @@ function Footer() {
                   alt="Telephone Icon"
                   className="footer-sv__contact-icon"
                 />
-                <span className="footer-sv__contact-label">(000)-SAVANT</span>
+                <span className="footer-sv__contact-label">1 (800)-1VAROVIS</span>
               </li>
               <li className="footer-sv__contact-email">
                 <img
@@ -147,7 +146,7 @@ function Footer() {
                   className="footer-sv__contact-icon"
                 />
                 <span className="footer-sv__contact-label">
-                  support@savant.xyz
+                  support@varovisglasses.com
                 </span>
               </li>
               <li className="footer-sv__contact-message">
@@ -162,7 +161,7 @@ function Footer() {
           </section>
         </div>
         <ul className="footer-bottom">
-          <span className="footer-bottom__link">&copy; 2023 SAVANT</span>
+          <span className="footer-bottom__link">&copy; 2024 VAROVIS</span>
           <Link to="/" className="footer-bottom__link">
             Privacy
           </Link>
@@ -176,13 +175,13 @@ function Footer() {
             Refund Policy
           </Link>
           <Link to="/" className="footer-bottom__link">
-            Conformity
+            Your Privacy Rights
           </Link>
         </ul>
       </div>
       <div className="footer-gh">
         <a
-          href="https://github.com/renchester"
+          href="https://github.com/techsterjim"
           target="_blank"
           className="footer-gh__link"
           rel="noopener noreferrer"
@@ -193,10 +192,10 @@ function Footer() {
             width="18"
             className="footer-gh__img"
           />
-          <p className="footer-gh__desc">Developed by Renchester Ramos</p>
+          <p className="footer-gh__desc">Developed by James Conner</p>
         </a>
         <small className="footer-gh__copyright">
-          &copy; Copyright {new Date().getFullYear()} Renchester Ramos. All
+          &copy; Copyright {new Date().getFullYear()} James Conner. All
           rights reserved.{' '}
         </small>
       </div>

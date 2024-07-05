@@ -32,12 +32,12 @@ function Header() {
     <header className="header">
       <div className="header__main" ref={ref}>
         <div className="header__main--extra-message">
-          Free shipping on orders above 10000
+          Free shipping on orders above $100!
         </div>
 
         <Link to="/" className="header__logo">
           <ImageWrapper className="header__logo-img-wrapper">
-            <img src={logo} alt="Savant logo" className="header__logo-img" />
+            <img src={logo} alt="Varovis logo" className="header__logo-img" />
           </ImageWrapper>
         </Link>
         <div className="header__icons-wrapper">

@@ -13,7 +13,7 @@ function CartPage() {
   const [cart] = useContext(CartContext);
 
   useEffect(() => {
-    document.title = 'Your Shopping Cart | SAVANT Eyewear Store';
+    document.title = 'Your Shopping Cart | VAROVIS Eyewear Store';
   }, []);
 
   const checkOutProducts = (e) => {
@@ -85,14 +85,14 @@ function CartPage() {
                   </span>
                 </div>
                 <div className="cart__total-price--disclaimer">
-                  Shipping and taxes computed at checkout
+                  Shipping and taxes are calculated during checkout
                 </div>
               </div>
               <button type="submit" className="cart__btn-submit">
                 CHECKOUT
               </button>
               <Link to="/products" className="cart__shop-link">
-                Keep Shopping
+                Continue Shopping
               </Link>
             </div>
           </form>
@@ -100,7 +100,7 @@ function CartPage() {
       ) : (
         <div className="cart-empty--wrapper">
           <span className="cart-empty__message">
-            Your cart is looking empty
+            Your cart appears to be empty
           </span>
           <Link to="/products" className="cart-empty__link">
             Shop Now

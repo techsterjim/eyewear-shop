@@ -253,7 +253,7 @@ function ProductPage() {
               </form>
             ) : (
               <div className="pd-pg__quantity-sold-out">
-                Item is currently sold out. Keep posted for updates!
+                Item is currently out of stock. Stay tuned for updates!
               </div>
             )}
           </div>
@@ -273,17 +273,17 @@ function ProductPage() {
           <li className="pd-lens__step">
             <span className="pd-lens__count">2</span>
             <p className="pd-lens__instruction">
-              Schedule an appointment through our website or contact us through
-              our telephone number. A SAVANT Eyewear representative will reach
-              out to confirm your appointment.
+              Schedule an appointment on our website or give us a call. 
+              A Varovis Eyewear rep will get in touch to confirm your 
+              appointment.
             </p>
           </li>
           <li className="pd-lens__step">
             <span className="pd-lens__count">3</span>
             <p className="pd-lens__instruction">
-              Attend your scheduled appointment and have your order for
-              prescription lenses finalized. Once finalized, your frame will be
-              delivered to your address.
+              Select and purchase the frame (either Optical or Sunglasses) 
+              you want to add a prescription to. If you already have a frame 
+              and only need to add a prescription, you can skip this step.
             </p>
           </li>
         </ul>

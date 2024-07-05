@@ -62,7 +62,7 @@ function SearchPanel(props) {
           searchResults.map((res) => (
             <Link
               to={`products/${
-                res.type === 'sunnies' ? 'sunglasses' : 'eyeglasses'
+                res.type === 'shades' ? 'sunglasses' : 'eyeglasses'
               }/${res.id}`}
               className="search-result"
               key={`${res.id}--search-result`}

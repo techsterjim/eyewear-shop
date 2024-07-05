@@ -12,7 +12,7 @@ const blogData = [
     category: 'feel good',
     title: 'Gallery of dogs wearing glasses',
     description:
-      "From classic aviators to colorful frames, dogs of all breeds and sizes are embracing this fun and playful trend, making a bold fashion statement that's impossible to ignore.",
+      "Dogs of all breeds and sizes are embracing a fun and playful trend, from classic aviators to colorful frames, making a bold fashion statement that cannot be ignored.",
     img: img1,
     imgCompressed: imgComp1,
     imgAlt: 'Black pug in a grey sweater wearing round glasses',
@@ -22,7 +22,7 @@ const blogData = [
     category: 'proper eyecare',
     title: 'How to take care of your eyes as a teenager',
     description:
-      'From getting enough sleep to eating a balanced diet, our experts weigh in on a range of healthy habits that can help prevent eye strain, maintain healthy vision, and reduce the risk of long-term eye problems.',
+      'Our experts share insights on various healthy habits, from adequate sleep to balanced nutrition, aimed at preventing eye strain, maintaining healthy vision, and reducing the risk of long-term eye issues.',
     img: img2,
     imgCompressed: imgComp2,
     imgAlt:
@@ -33,7 +33,7 @@ const blogData = [
     category: 'legacy',
     title: 'The eye doctor who traveled across Asia',
     description:
-      "The story of one eye doctor's journey to remote villages across Asia to provide much-needed eye care to young children. ",
+      "An eye doctor's journey to remote Asian villages, providing essential eye care to children. ",
     img: img3,
     imgCompressed: imgComp3,
     imgAlt: 'Elderly eye doctor wearing clear frames',

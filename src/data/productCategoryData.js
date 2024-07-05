@@ -9,11 +9,11 @@ import imgCompressedEyeglasses from '../assets/img/unsplash-compressed/frame-7.j
 import { allProductsData, sunglassesData, eyeglassesData } from './productData';
 
 export const allProductsCategoryData = {
-  documentTitle: 'COLLECTION | Shop all products - SAVANT Eyewear Store',
+  documentTitle: 'COLLECTION | Shop all products - VAROVIS Eyewear Store',
   banner: {
     title: 'All Products',
     description:
-      'Featuring our iconic frames, this collection draws inspiration from the unique DNA of downtown living. The frames are designed to evoke the energy, creativity, and excitement that are synonymous with urban life, while also offering the comfort and functionality',
+      'Featuring our iconic frames, this collection embodies the essence of downtown living, evoking urban energy, creativity, and excitement while ensuring comfort and functionality.',
     img: imgAllProducts,
     imgCompressed: imgCompressedAllProducts,
     imgAlt: 'Female model wearing glasses',
@@ -22,11 +22,11 @@ export const allProductsCategoryData = {
 };
 
 export const eyeglassesCategoryData = {
-  documentTitle: 'OPTICAL | Trendy Frames & Styles - SAVANT Eyewear Store',
+  documentTitle: 'OPTICAL | Trendy Frames & Styles - VAROVIS Eyewear Store',
   banner: {
     title: 'Optical Shop',
     description:
-      'Introducing our latest line of eyeglass frames, designed to elevate your everyday look with style and sophistication. From classic and timeless designs to bold and daring styles, these frames have something for every taste and preference. Explore the collection and find the perfect frames to reflect your personal style and elevate your eyewear game.',
+      'Explore our latest eyeglass frames, offering style and sophistication for every taste.',
     img: imgEyeglasses,
     imgCompressed: imgCompressedEyeglasses,
     imgAlt: 'Male model wearing glasses',
@@ -35,11 +35,11 @@ export const eyeglassesCategoryData = {
 };
 
 export const sunglassesCategoryData = {
-  documentTitle: 'SUNGLASSES | Trendy Frames & Styles - SAVANT Eyewear Store',
+  documentTitle: 'SUNGLASSES | Trendy Frames & Styles - VAROVIS Eyewear Store',
   banner: {
-    title: 'Sunnies Store',
+    title: 'Shades Store',
     description:
-      "Our latest line of sunglasses is the perfect combination of fashion and function. Designed with both style and comfort in mind, these frames are the ultimate accessory for any adventure.  With high-quality materials and attention to detail, these frames are not only stylish but also durable enough to withstand whatever your day throws your way. So whether you're lounging by the pool or exploring the great outdoors, our sunglasses will keep you looking and feeling your best.",
+      "Our latest sunglasses blend fashion with function, designed for style, comfort, and durability, perfect for any adventure.",
     img: imgSunglasses,
     imgCompressed: imgCompressedSunglasses,
     imgAlt: 'Female model on boat wearing sunglasses',

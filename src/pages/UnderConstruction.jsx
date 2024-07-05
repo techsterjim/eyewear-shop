@@ -9,7 +9,7 @@ import dogPictureCompressed from '../assets/img/unsplash-compressed/frame-11.jpg
 
 function UnderConstruction() {
   useEffect(() => {
-    document.title = '404 Not Found - SAVANT Eyewear Online Store';
+    document.title = '404 Not Found - VAROVIS Eyewear Online Store';
   }, []);
 
   return (
@@ -31,8 +31,12 @@ function UnderConstruction() {
       </div>
       <h3 className="tbd__subtitle">This is awkward...</h3>
       <p className="tbd__text">
-        This page either doesn&apos;t exist or is under construction. Sorry
-        about that, here&apos;s a picture of a dog with glasses instead.
+        Oops! It looks like you&apos;ve wandered off the beaten path. The page 
+        you were looking for may have been moved, deleted, or doesn&apos;t exist. 
+        Don&apos;t worry, let&apos;s get you back on track. You can return to our 
+        homepage to explore more, or contact our support team if you need 
+        further assistance. We apologize for any inconvenience. Here is 
+        a picture of a dog with glasses instead.
       </p>
       <p className="tbd__text">Try the links below!</p>
       <div className="tbd__btn-container">

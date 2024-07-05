@@ -8,36 +8,36 @@ import imgComp3 from '../assets/img/unsplash-compressed/sun-5.jpg';
 
 const blogData = [
   {
-    id: 'blog-post-new-loc-singapore',
+    id: 'blog-post-new-loc-tokyo',
     category: 'locations',
-    title: "We're coming to Singapore",
+    title: "We're opening in Tokyo!",
     description:
-      "We are opening a new location in Singapore! Our unique collection of glasses and sunglasses is coming to the heart of the city, and we can't wait for you to come and explore our latest designs.",
+      "We're excited to announce our new location in Tokyo! Discover our unique collection of glasses and sunglasses in the heart of the city. We can't wait for you to explore our latest designs.",
     img: img1,
     imgCompressed: imgComp1,
     imgAlt: 'Depiction of the store display of frames',
   },
   {
-    id: 'blog-post-meet-our-savant-family',
+    id: 'blog-post-meet-family',
     category: 'community',
-    title: 'Meet our Savant Family',
+    title: 'Meet our VAROVIS Family',
     description:
       'At our brand, we place a great emphasis on the value of community and family. From our dedicated team members to our loyal customers, we see everyone as a part of the larger family that makes our brand what it is today.',
     img: img2,
     imgCompressed: imgComp2,
     imgAlt:
-      'Black man holding his child in his arms and kissing him on his cheeks',
+      'Black man holding his child and kissing their cheek.',
   },
   {
-    id: 'blog-post-savant-moments-eye-spy',
-    category: '#SAVANTmoments',
+    id: 'blog-post-events-eye-spy',
+    category: 'Notable Events',
     title: 'Eye Spy',
     description:
-      'Our brand has been spotted on some of the biggest names in Hollywood! From red carpet events to casual outings, these stars have been rocking our frames and proving that our designs are truly timeless.',
+      'Top Hollywood stars rock our timeless frames, from red carpets to casual outings.',
     img: img3,
     imgCompressed: imgComp3,
     imgAlt:
-      'Happy woman wearing sunglasses--holding her hands up with peace signs',
+      'Happy woman wearing sunglasses, flashing peace signs.',
   },
 ];
 
